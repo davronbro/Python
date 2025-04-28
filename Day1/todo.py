@@ -1,0 +1,1 @@
+print ("Wokr hard and buy BMW")
