@@ -23,5 +23,5 @@ print(message)
 #invalid = name + price
 #print(invalid)
 
-fixed = name + "'s price $" + (str(price) * quantity)
+fixed = name + "'s price $" + str(price * quantity)
 print(fixed)

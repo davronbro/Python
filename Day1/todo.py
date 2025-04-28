@@ -1,1 +1,1 @@
-print ("Wokr hard and buy BMW")
+print ("Work hard and buy BMW")

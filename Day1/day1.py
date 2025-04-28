@@ -72,3 +72,57 @@ print(fixed_code)  # Output: iPhone 14 costs $999.99
   Why?: Shows why type conversion matters. You’ll hit errors like this in backend dev, so we’ll learn to fix them.
 
 """
+
+#------------------------
+
+
+# Day 1 Cheatsheet: Variables and Basic Data Types
+
+# Variables:
+    # Definition: A name that stores data (like a labeled box).
+    # Syntax: variable_name = value
+    # Example: product_name = "iPhone", price = 999.99
+    # Tip: Names are case-sensitive (Price ≠ price).
+
+# Data Types:
+    # String: Text, in quotes.
+        # Syntax: "text" or 'text'
+        # Example: name = "Samsung Galaxy"
+    # Integer: Whole number, no quotes.
+        # Syntax: number
+        # Example: quantity = 5
+    # Float: Decimal number, no quotes.
+        # Syntax: number.decimal
+        # Example: price = 799.99
+
+# Basic Operations:
+    # Numbers (int/float):
+        # Add: + (e.g., price + 10)
+        # Subtract: - (e.g., quantity - 1)
+        # Multiply: * (e.g., price * quantity)
+        # Divide: / (e.g., price / 2)
+   # Strings:
+        # Concatenate: + (e.g., "Buy " + name)
+        # Tip: Convert numbers to strings with str() (e.g., str(price)).
+
+# Printing:
+        # Syntax: print(value)
+        # Example: print(name) → Samsung Galaxy
+        # Tip: Use commas for multiple values: print(name, price) → Samsung Galaxy 799.99
+
+# Type Conversion:
+        # Convert number to string: str(999.99) → "999.99"
+        # Why? Needed for concatenation (e.g., name + str(price)).
+
+# Common Errors:
+      # TypeError: Mixing types (e.g., "text" + 5).
+          # Fix: Convert types (e.g., "text" + str(5)).
+      # NameError: Using undefined variable (e.g., print(Price) when it’s price).
+          # Fix: Check spelling and case.
+
+# Mini-Project Note:
+      # Started todo.py with a simple print("Buy Samsung Galaxy").
+      # Next: Add lists to store multiple to-dos.
+
+
+#---------------------------
