@@ -1,10 +1,9 @@
 # Task 1: Create a List
 
-cart = ["Ufc Gloves", "Venum Unifom", "BMW"]
+cart = ["Ufc Gloves", "Venum Uniform", "BMW"]
 
 print(cart)
 print(cart[0])
-print(list(cart))
 print(cart[1:3])
 
 

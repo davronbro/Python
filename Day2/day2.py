@@ -3,7 +3,7 @@
 # What Are Lists?
   # A list is a collection of items, like a shopping cart on your e-commerce site. It’s ordered (items have a position, starting at index 0) and mutable (you can change it after creating it).
   # Syntax:  my_list = ["item1, item2, item3]   <----
-  # Eaxmple: cart = ["chair", "table", "lamp"]  <----
+  # Example: cart = ["chair", "table", "lamp"]  <----
   # Why?: Lists are perfect for storing multiple products, to-dos, or prices. You’ll use them a ton in backend dev (e.g., to store all products in a database query).
 
 # Key List Operations
@@ -119,7 +119,7 @@ Breakdown:
 #----------------------------------------
 
 """
-Tips and Debugginghoe
+Tips and Debugging How
 
   .Common Errors:
       .IndexError: Accessing an index that doesn’t exist (e.g., cart[5] when the list has 3 items).
