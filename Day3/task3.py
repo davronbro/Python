@@ -30,7 +30,7 @@ for key, value in products.items():
 
 # Task 4: Cart Dictionary
 
-order = {"BWM": 5, "Premium Class": 2, "Not Premium": 3}
+order = {"BMW": 5, "Premium Class": 2, "Not Premium": 3}
 
 total_items = sum(order.values())
 print(total_items)
