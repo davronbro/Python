@@ -18,7 +18,7 @@ price = 100
 if price < 200:
   print("cheap")
 else:
-  print("pricy")
+  print("pricey")
 
 # Task 4: Combine Loop and Conditional
 
