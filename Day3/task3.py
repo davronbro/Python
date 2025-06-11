@@ -26,7 +26,7 @@ for value in products.values():
   print(value)
 for key, value in products.items():
   print(f"{key}: {value}") 
-
+  
 
 # Task 4: Cart Dictionary
 
